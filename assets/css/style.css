@@ -1,0 +1,96 @@
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+#title{
+    text-align: right;
+}
+#selection{
+    overflow: auto;
+    text-align: center
+}
+.hide{
+    display: none;
+}
+#characterChosen{
+    text-align: center;
+    width: 150px;
+}
+#character{
+    overflow: auto;
+    height: 160px;
+    width: 150px;
+    text-align: center;
+};
+#charaHp{
+    clear: both;
+}
+.charaShow{
+    display: block;
+    overflow: visible;
+}
+#enemies{
+    clear: both;
+    overflow: visible;
+    height: 250px;
+}
+#centerEn{
+    text-align: center;
+}
+.enemyShow{
+    float: left;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+}
+.enemiesSelect1, .enemiesSelect2, .enemiesSelect3, .enemiesSelect4{
+    display: none;
+    float: left;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+}
+#fight{
+    clear: both;
+    overflow: auto;
+}
+#defender{
+}
+.select{
+    float: left;
+    margin: 5px;
+}
+
+.maz{
+    float: left;
+    height: 150px;
+    width: 150px;
+    background-image: url(../images/maz.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.finn{
+    float: left;
+    height: 150px;
+    width: 150px;
+    background-image: url(../images/finn.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.rey{
+    float: left;
+    height: 150px;
+    width: 150px;
+    background-image: url(../images/rey.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.kylo{
+    float: left;
+    height: 150px;
+    width: 150px;
+    background-image: url(../images/kylo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

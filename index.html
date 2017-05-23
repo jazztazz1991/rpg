@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hangeman</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    
+    <body>
+        
+        <h2 id="title">Star Wars RPG</h2>
+        <div id="selection">
+            <h4>Select Your Character!</h4>
+            <div class="select">
+                <p>Maz</p>
+                <img src="assets/images/maz.jpg" width="150px" height="150px" id="mazS">
+                <p>100</p>
+            </div>
+            <div class="select">
+                <p>Finn</p>
+                <img src="assets/images/finn.jpg" width="150px" height="150px" id="finnS">
+                <p>120</p>
+                
+            </div>
+            <div class="select">
+                <p>Kylo</p>
+                <img src="assets/images/kylo.jpg" width="150px" height="150px" id="kyloS">
+                <p>150</p>
+            </div>
+            <div class="select">
+                <p>rey</p>
+                <img src="assets/images/rey.jpg" width="150px" height="150px" id="reyS">
+                <p>200</p>
+            </div>
+        </div>
+        
+        <div id="characterChosen">
+            <h4>Your Character</h4>
+            <p id="charaName"></p>
+            <div id="character">
+                <div id="mazC" class="hide">
+                    <img src="assets/images/maz.jpg" width="150px" height="150px">
+                </div>
+                <div id="finnC" class="hide">
+                    <img src="assets/images/finn.jpg" width="150px" height="150px">
+                </div>
+                <div id="kyloC" class="hide">
+                    <img src="assets/images/kylo.jpg" width="150px" height="150px">
+                </div>
+                <div id="reyC" class="hide">
+                    <img src="assets/images/rey.jpg" width="150px" height="150px">
+                </div>
+            </div>
+            <p id="charaHp"></p>
+           
+        </div>
+        <div id="enemies">
+            <h4>Enemies - Select one to fight.</h4>
+            <div id="centerEn">
+            <div id="enemiesSel1" class="enemiesSelect1">
+                <p id="mazName"></p>
+                <img src="assets/images/maz.jpg" width="150px" height="150px" id="mazS">
+                <p id="mazHp"></p>
+            </div>
+            <div id="enemiesSel2" class="enemiesSelect2">
+                <p id="finnName"></p>
+                <img src="assets/images/finn.jpg" width="150px" height="150px" id="finnS">
+                <p id="finnHp"></p>
+            </div>
+            <div id="enemiesSel3" class="enemiesSelect3">
+                <p id="kyloName"></p>
+                <img src="assets/images/kylo.jpg" width="150px" height="150px" id="kyloS">
+                <p id="kyloHp"></p>
+            </div>
+            <div id="enemiesSel4" class="enemiesSelect4">
+                <p id="reyName"></p>
+                <img src="assets/images/rey.jpg" width="150px" height="150px" id="reyS">
+                <p id="reyHp"></p>
+            </div>
+            </div>
+            <br>
+        </div>
+        <div id="fight">
+            <br><br>
+            <h4>FIGHT!</h4>
+            <button type="button" id="btnClick">Fight!</button>
+        </div>
+        <div id="defender">
+            <h4>Defender</h4>
+            <div id="defSel1" class="enemiesSelect1">
+                <img src="assets/images/maz.jpg" width="150px" height="150px" id="mazS">
+            </div>
+            <div id="defSel2" class="enemiesSelect2">
+                <img src="assets/images/finn.jpg" width="150px" height="150px" id="finnS">
+            </div>
+            <div id="defSel3" class="enemiesSelect3">
+                <img src="assets/images/kylo.jpg" width="150px" height="150px" id="kyloS">
+            </div>
+            <div id="defSel4" class="enemiesSelect4">
+                <img src="assets/images/rey.jpg" width="150px" height="150px" id="reyS">
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </body>
+</html>
