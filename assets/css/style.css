@@ -55,6 +55,11 @@ body{
     overflow: auto;
 }
 #defender{
+    width: 150px;
+}
+#enemyName, #enemyHp{
+    text-align: center;
+    clear: both;
 }
 .select{
     float: left;
